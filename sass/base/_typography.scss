@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,500,700");
+
+.ffroboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .75rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.h5, h5 {
+    font-size: 1.125rem !important;
+}

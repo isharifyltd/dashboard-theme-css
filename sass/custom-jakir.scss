@@ -1,0 +1,228 @@
+// html,
+// .employee-search-result,
+// .all-comment-wrapper {
+//   scroll-behavior: smooth;
+// }
+p {
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.designation {
+  font-size: 11px;
+  color: #757575;
+  display: block;
+}
+.deg_name {
+  color: #727272;
+}
+.mic_name {
+  color: #9e9e9e;
+  margin-left: 20px;
+}
+.show-column-checkbox-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.show-column-checkbox-wrapper label.is-checkbox-btn.checkbox-ml-24 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-column-checkbox-wrapper span.upfront-checkbox {
+  margin-left: 10px;
+}
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+}
+.photo-container .photo {
+  max-width: 100px;
+  max-height: 300px;
+}
+.photo-container .cross {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.salary-table-main-container {
+  // max-height: 90vh;
+  // overflow: hidden;
+  // margin-bottom: 30px;
+}
+
+.employee_add_edit_view_container .form-control:disabled,
+.employee_add_edit_view_container .select-field:disabled {
+  background-color: unset;
+}
+.employee_add_edit_view_container .select-field:disabled {
+  opacity: 1;
+}
+.salary-search-nodes.active,
+.employee-search-nodes.active,
+.salary-search-nodes:hover,
+.employee-search-nodes:hover {
+  background-color: #f8f8f8;
+}
+
+.all-comment-wrapper {
+  max-height: 400px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.comment-dropdown {
+  z-index: 1;
+}
+.comment-edit {
+  display: none;
+}
+.single-comment-wrapper.edit .comment-content {
+  display: none;
+}
+.single-comment-wrapper.edit .comment-edit {
+  display: block;
+}
+.hascomment input,
+.hascomment select {
+  border: 1px solid #ffff007a;
+}
+.hascomment .absent_value {
+  background: #ffff007a;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.three-dot {
+  color: gray;
+}
+.hascomments .three-dot {
+  color: black;
+}
+.absent_value {
+  width: max-content;
+  cursor: pointer;
+  position: relative;
+  color: red;
+}
+
+.absent_working_day {
+  position: absolute;
+  top: 6px;
+  right: -17px;
+  font-size: 10px;
+  color: #777;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+.js-date {
+  color: gray;
+}
+
+.application-wrapper {
+  // padding: 40px 0;
+}
+.application-content {
+  margin-bottom: 250px;
+  padding: 80px;
+}
+.application-content span {
+  display: block;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.A4-Paper {
+  height: 1587px;
+  position: relative;
+  padding: 120px 0;
+}
+.application-header {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+.application-footer {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.print-button {
+  margin: 5px;
+  position: fixed;
+  z-index: 5;
+}
+
+.preference-header {
+  font-weight: bold;
+  color: gray;
+}
+
+.tooltip-bank {
+  top: -35px;
+  left: -22px;
+}
+
+.form-group-search-btn-warpper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.search_btn_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.search_btn_wrapper button,
+.search_btn_wrapper i {
+  cursor: pointer;
+}
+
+.dropdown-wrapper {
+  position: absolute;
+  background: white;
+  border: 1px solid gray;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
+.dropdown-wrapper .item {
+  margin: 0;
+  padding: 3px 10px;
+}
+.dropdown-wrapper .item:hover {
+  background-color: #3490dc;
+  color: white;
+  cursor: pointer;
+}
+
+.position-relative {
+  position: relative;
+}
+.color-transparent {
+  color: transparent;
+  &:focus + .over-input {
+    display: none;
+  }
+}
+
+.over-input {
+  position: absolute;
+  top: 36px;
+  left: 11px;
+}
+
+// .employee-search-container .form-three-section {
+//   column-gap: 20px;
+// }
+// .employee-search-container .form-two-section {
+//   column-gap: 5px;
+// }

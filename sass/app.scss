@@ -1,0 +1,30 @@
+// Base
+@import "base/typography";
+@import "base/reset";
+
+// Components
+@import "components/dropdown";
+@import "components/buttons";
+@import "components/radio";
+@import "components/table-scroll";
+@import "components/checkbox";
+@import "components/vertical-tab";
+
+// Layout
+@import "layout/header";
+@import "layout/forms";
+
+// Pages
+@import "pages/home";
+@import "pages/add-employee";
+@import "pages/employees";
+@import "pages/employee-profile";
+@import "pages/salary";
+@import "pages/company-settings";
+@import "pages/global";
+
+// Utils
+@import "utils/variables";
+@import "utils/helpers";
+
+@import "custom-jakir";

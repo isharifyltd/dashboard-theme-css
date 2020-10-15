@@ -1,0 +1,141 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #fbfbfb;
+    font-size: inherit;
+    overflow-x: hidden;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+
+a {
+    color: #3490dc;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #1d68a7;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    overflow: visible;
+    border-left: 1px solid #f5f5f5;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    border-radius: 8px;
+    // height: 188px;
+    min-height: 28px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #80868b;
+    cursor: pointer;
+  }
+
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.content-container {
+    padding: 35px;
+    background-color: #ffffff;
+}
+
+.form-control:focus {
+    color: #495057;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.MuiPaper-root {
+    overflow-x: hidden;
+    border-radius: 0 !important;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
+
+.MuiPaper-root {
+    box-shadow: none !important;
+    color: #212529 !important;
+    background-color: #ffffff !important;
+}
+
+.MuiTabs-flexContainer {
+    border-bottom: 2px solid #eee;
+}
+
+.MuiTabs-indicator {
+    background-color: #3490dc !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #3490dc !important;
+}
+
+.MuiBox-root {
+    padding: 0 !important;
+    padding-top: 24px !important;
+}
+
+@media (min-width: 600px){
+    .MuiTab-root {
+        min-width: unset !important;
+    }
+}
+
+.MuiTab-root {
+    padding: 0 !important;
+    color: #212529 !important;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px !important;
+    max-width: 264px;
+    min-width: 72px;
+    box-sizing: border-box;
+    min-height: 48px;
+    text-align: center;
+    flex-shrink: 0;
+    line-height: 1.75;
+    white-space: normal;
+    letter-spacing: 0.02857em;
+    text-transform: initial !important;
+}
+
+.MuiTab-root:not(:last-child) { 
+    margin-right: 48px !important;
+}
+
+.MuiTouchRipple-root {
+    display: none !important;
+}
