@@ -32,6 +32,11 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 60px;
 }
+.form-five-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 60px;
+}
 
 .form-group.address {
   grid-column: 1 / -1;

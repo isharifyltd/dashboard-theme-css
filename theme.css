@@ -1538,7 +1538,7 @@ p {
   background: white;
   border: 1px solid gray;
   width: 100%;
-  height: 300px;
+  max-height: 300px;
   overflow: scroll;
 }
 
@@ -1615,6 +1615,15 @@ p {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 60px;
+          column-gap: 60px;
+}
+
+.form-five-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
   -webkit-column-gap: 60px;
           column-gap: 60px;
 }
