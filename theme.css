@@ -1615,8 +1615,8 @@ p {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  -webkit-column-gap: 60px;
-          column-gap: 60px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
 }
 
 .form-five-section {
@@ -1624,8 +1624,8 @@ p {
   display: grid;
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
-  -webkit-column-gap: 60px;
-          column-gap: 60px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
 }
 
 .form-group.address {

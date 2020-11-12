@@ -30,12 +30,12 @@
 .form-four-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 60px;
+  column-gap: 30px;
 }
 .form-five-section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  column-gap: 60px;
+  column-gap: 20px;
 }
 
 .form-group.address {
