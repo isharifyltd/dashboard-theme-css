@@ -1,13 +1,3 @@
-// html,
-// .employee-search-result,
-// .all-comment-wrapper {
-//   scroll-behavior: smooth;
-// }
-p {
-  white-space: pre-line;
-  overflow-wrap: anywhere;
-}
-
 .designation {
   font-size: 11px;
   color: #757575;
@@ -45,12 +35,6 @@ p {
   position: absolute;
   right: 5px;
   top: 5px;
-}
-
-.salary-table-main-container {
-  // max-height: 90vh;
-  // overflow: hidden;
-  // margin-bottom: 30px;
 }
 
 .employee_add_edit_view_container .form-control:disabled,
