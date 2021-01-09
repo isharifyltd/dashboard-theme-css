@@ -826,36 +826,77 @@ button:focus {
   margin-bottom: 0;
 }
 
-.vertical-tab {
+.ecc-vertical-tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  max-width: 920px;
+  margin: auto;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
 }
 
-.vertical-tab-left {
-  min-width: 200px;
+.ecc-vertical-tab-left {
+  width: 244px;
+  min-width: 244px;
 }
 
-.tab-left-items {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 32px;
-  margin-top: 35px;
+.ecc-tab-left-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 12px;
 }
 
-.tab-left-item {
-  -webkit-transition: color .3s;
-  transition: color .3s;
-}
-
-.tab-left-item:hover {
+.ecc-tab-left-item {
+  position: relative;
+  padding: 10px 16px;
+  color: #7a7a7a;
+  font-size: 13px;
   cursor: pointer;
-  color: #1b5083;
+  border: 1px solid #d6d6d6;
+  text-align: left;
+  line-height: 14px;
+  background-color: #fff;
+  -webkit-transition-property: border, color;
+  transition-property: border, color;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.ecc-tab-left-item:hover {
+  border: 1px solid #1988cc;
+  color: #1988cc;
+}
+
+.ecc-tab-left-item.active {
+  background-color: #3490dc;
+  border: 1px solid #3490dc;
+  color: #fff;
+}
+
+.ecc-tab-left-item.active:hover {
+  color: #fff;
+  border: 1px solid #3490dc;
+}
+
+.ecc-tab-left-item.active .ecc-is-tringle {
+  width: 18px;
+  height: 100%;
+  background-color: #3490dc;
+  position: absolute;
+  right: -19px;
+  top: 0;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 50%);
+          clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+.ecc-vertical-tab-right {
+  width: 100%;
 }
 
 .nav-icon {
@@ -1547,7 +1588,7 @@ p {
 .btn {
   padding: 4px 18px;
   border: none;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .table th {
